@@ -11,7 +11,7 @@ public class VariableDemo {
 		
 		rahul.id=124;
 		rahul.marks=968.4;
-		Student.college="MIST";
+		Student.college="Govt.Polytechnic Rudrampur";
 		
 		System.out.println("ID 	= "+rahul.id);
 		System.out.println("Marks 	= "+rahul.marks);
@@ -24,6 +24,5 @@ public class VariableDemo {
 		System.out.println("ID 	= "+kiran.id);
 		System.out.println("Marks 	= "+kiran.marks);
 		System.out.println("College Name = "+Student.college);
-		
 	}
 }

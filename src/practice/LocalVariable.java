@@ -16,5 +16,6 @@ public class LocalVariable {
 		
 		System.out.println("Principal Amount = ₹"+P+""+", Rate of Interest per year in decimal = "+R+"%"+" & Time Periods involved = "+T+" Years");
 		System.out.println("Simple Interest		= "+((P*R*T)/100));
+		
 	}
 }

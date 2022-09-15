@@ -20,12 +20,12 @@ public class College {
 		Student.college="MIST";
 		Student.clgcode=9790;
 		
-		System.out.println("Name 	= "+lucky.name);
-		System.out.println("ID 	= "+lucky.id);
-		System.out.println("Number 	= +"+lucky.number);
-		System.out.println("Marks 	= "+lucky.marks);
-		System.out.println("Grade 	= "+lucky.grade+"+");
-		System.out.println("College Name = "+Student.college);
-		System.out.println("College code = "+Student.clgcode);
+		System.out.println("Name 		=  "+lucky.name);
+		System.out.println("ID 		=  "+lucky.id);
+		System.out.println("Number 		=  +"+lucky.number);
+		System.out.println("Marks 		=  "+lucky.marks);
+		System.out.println("Grade 		=  "+lucky.grade+"+");
+		System.out.println("College Name 	=  "+Student.college);
+		System.out.println("College code 	=  "+Student.clgcode);
 	}
 }
