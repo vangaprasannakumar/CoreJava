@@ -11,7 +11,7 @@ class VolleyBall extends Circket{
 		System.out.println("VolleyBall Team Players are = "+players);
 	}
 }
-public class Game {
+public class Game_SuperKeyword {
 
 	public static void main(String[] args) {
 		VolleyBall obj = new VolleyBall(7);
