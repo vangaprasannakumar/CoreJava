@@ -1,25 +1,26 @@
 package practice;
 
-class Employee{
-	int eid ;
-	double salary ;
-	Employee (int eid ,double salary) {
-	    this.eid = eid;
-	    this.salary = salary;
+class Employee1{
+	int employee_id ;
+	double employee_salary ;
+	
+	Employee1 () {
+	    employee_id = 1023;
+	    employee_salary = 45000;
 	}
 	void show() {
-	    System.out.println ("this = "+this);
-	    System.out.println ("Id = "+eid);
-	    System.out.println ("salary = "+salary);
+	    System.out.println ("Id	= "+employee_id);
+	    System.out.println ("salary	= "+employee_salary);
 	}
 }
 public class ConstructorDemo {
 	public static void main(String[] args) {
-		Employee shiva = new Employee(1023,45000);
-		System.out.println("shiva = "+shiva);
+		Employee1 shiva = new Employee1();
 		shiva.show();
-		Employee xyz = new Employee(1024,65000);
-		System.out.println ("xyz = " + xyz);
-		xyz.show();
+		
+		System.out.println("-------------");
+		
+		Employee1 lucky = new Employee1();
+		lucky.show();
 	}
 }
