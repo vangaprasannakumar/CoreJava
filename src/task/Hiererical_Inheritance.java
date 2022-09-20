@@ -20,10 +20,13 @@ public class Hiererical_Inheritance {
 
 	public static void main(String[] args) {
 		System.out.println("The specifications of Benz Car");
+		
 		Benz b = new Benz();
 		b.specifications();
 		b.extra_specifications();
+		
 		System.out.println("------------");
+		
 		System.out.println("The specifications of Jaguar Car");
 		Jaguar j = new Jaguar();
 		j.specifications();
