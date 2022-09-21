@@ -2,24 +2,24 @@ package task;
 import java.util.Scanner;
 
 class Circle {
-    double r;
-   Scanner sc = new Scanner ( System.in );
+	double r;
+	Scanner sc = new Scanner ( System.in );
     void input() {
-        System.out.println("Enter Radius value R");
-        r = sc.nextInt();
+        System.out.println("Enter Radius value R in cm");
+        r = sc.nextDouble();
    }
     void area() {
-        System.out.println("Circle Area = "+(3.141*r*r));
+        System.out.println("Circle Area = "+(3.141*r*r)+" cm²");
     }
 }
 class Cylinder extends Circle {
 	double h;
     void accept() {
-        System.out.println("Enter Height value H");
-        h = sc.nextInt();
+        System.out.println("Enter Height value H in cm");
+        h = sc.nextDouble();
     }
     void volume() {
-        System.out.println("Cylinder Volume = "+(3.141*r*r*h));
+        System.out.println("Cylinder Volume = "+(3.141*r*r*h)+" cm²");
     }
 }
 public class SingleLevel_Inheritance {
@@ -32,5 +32,4 @@ public class SingleLevel_Inheritance {
 		c.input();
 		c.volume();
 	}
-
 }

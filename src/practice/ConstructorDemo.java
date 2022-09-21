@@ -1,5 +1,5 @@
 package practice;
-
+//Topic :- Constructor
 class Employee1{
 	int employee_id ;
 	double employee_salary ;
