@@ -31,7 +31,7 @@ public class Abstract {
 		a = new Rectangle();
 		a.print();
 		a.printArea();
-		System.out.println("____________");
+		System.out.println("____________"+"\n");
 		a = new Triangle();
 		a.print();
 		a.printArea();

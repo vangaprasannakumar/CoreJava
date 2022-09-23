@@ -13,7 +13,7 @@ class Details implements Parentt, Childd{
 }
 public class InterfaceVariables {
 
-	public static void main(StringDemo[] args) {
+	public static void main(String[] args) {
 		Details d = new Details();
 		d.details();
 	}

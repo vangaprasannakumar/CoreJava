@@ -1,71 +1,72 @@
 package practice;
-interface Electronics{
+interface vehicle{
 	void cost();
-	void features();
-	static void common() {
-		System.out.println("Every Electronic device need electric energy to work");}
+	void milage();
+	static void use() {
+		System.out.println("Use to Travel");}
 }
-abstract class Mobile implements Electronics{
+abstract class cars implements vehicle{
 	public void cost() {
 	}
-	void mainUse() {
-		System.out.println("Main use is to communicate quickly with voice call");}
+	void Advantage() {
+		System.out.println("Cars are very Comfortable to travel for long Distances");}
 }
-abstract class Laptop implements Electronics{
+abstract class Bike implements vehicle{
 	public void cost() {}
-	void parts() {
-		System.out.println("Now a days every laptop have web cam");}
+	void Advantage() {
+		System.out.println("Bikes are More Economical then Cars");}
 }
-class Realme extends Mobile{
+class Lamborghini extends cars{
 	public void cost() {
-		System.out.println("Realme Mobile Cost is 20k");}
-	public void features() {
-		System.out.println("its popular for cameres");}
+		System.out.println("Lamborghini cost is 50 lakhs");}
+	public void milage() {
+		System.out.println("Lamborghini milage is 15km");}
 }
-class Redmi extends Mobile{
+class Benz extends cars{
 	public void cost() {
-		System.out.println("Redmi Mobile Cost is 15k");}
-	public void features() {
-		System.out.println("its popular for featuers");}
+		System.out.println("Benz cost is 40 lakhs");}
+	public void milage() {
+		System.out.println("Benz milage is 12km");}
 }
-class Hp extends Laptop{
+class Re extends Bike{
 	public void cost() {
-		System.out.println("Hp Basic Laptop cost is 60k");}
-	public void features() {
-		System.out.println("it's best in allrounder");}
+		System.out.println("Re cost is 1.8 lakhs");}
+	public void milage() {
+		System.out.println("Re milage is 35 km");}
 }
-class Dell extends Laptop{
+class R15 extends Bike{
 	public void cost() {
-		System.out.println("Dell Basic Laptop cost is 50k");}
-	public void features() {
-		System.out.println("it's best in Students");}
+		System.out.println("R15 cost is 1.5lakhs");}
+	public void milage() {
+		System.out.println("R15 milage is 40km");}
 }
 public class Interface {
-	public static void main(StringDemo[] args) {
-		Mobile r;
-		r = new Realme();
+	public static void main(String[] args) {
+		System.out.println("\n"+"********* CARS *********"+"\n");
+		cars r;
+		r = new Lamborghini();
 		r.cost();
-		r.features();
-		r.mainUse();
-		Electronics.common();
+		r.milage();
+		r.Advantage();
+		vehicle.use();
 		System.out.println("-------------------");
-		r = new Redmi();
+		r = new Benz();
 		r.cost();
-		r.features();
-		r.mainUse();
-		Electronics.common();
-		System.out.println("\n"+"*******************");
-		Laptop h;
-		h = new Hp();
+		r.milage();
+		r.Advantage();
+		vehicle.use();
+		System.out.println("\n"+"********* BIKES *********"+"\n");
+		Bike h;
+		h = new Re();
 		h.cost();
-		h.features();
-		h.parts();
-		Electronics.common();
+		h.milage();
+		h.Advantage();
+		vehicle.use();
 		System.out.println("-------------------");
-		h = new Dell();
+		h = new R15();
 		h.cost();
-		h.features();
-		h.parts();
-		Electronics.common();
+		h.milage();
+		h.Advantage();
+		vehicle.use();
 	}
 }

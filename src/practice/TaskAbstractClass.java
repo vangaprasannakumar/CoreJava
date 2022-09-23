@@ -21,7 +21,7 @@ class Girls extends PrimarySchool{
 }
 public class TaskAbstractClass {
 
-	public static void main(StringDemo[] args) {
+	public static void main(String[] args) {
 		PrimarySchool s;
 		s = new Boys();
 		s.input();

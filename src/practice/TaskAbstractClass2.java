@@ -33,7 +33,7 @@ class Multiplication extends Numbers{
 }
 public class TaskAbstractClass2 {
 
-	public static void main(StringDemo[] args) {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		Numbers n;
 		System.out.println("Enter 2 numbers");

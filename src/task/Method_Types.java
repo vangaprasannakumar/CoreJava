@@ -15,7 +15,7 @@ class ExamBranch{
 	    return "Paid" ;
 	}
 }
-public class ExanFee_Method {
+public class Method_Types {
 
 	public static void main(String[] args) {
 		ExamBranch SemExam = new ExamBranch();

@@ -11,7 +11,7 @@ class MistCollege{
 	}
 }
 public class MemberInnerClass {
-	public static void main(StringDemo[] args) {
+	public static void main(String[] args) {
 		MistCollege mist = new MistCollege();
 		mist.notification();
 		MistCollege.CivilDepartment civil = mist.new CivilDepartment();

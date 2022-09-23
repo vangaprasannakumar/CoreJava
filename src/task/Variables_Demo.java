@@ -9,7 +9,7 @@ class Student{
 	static String college;
 	static int clgcode;
 }
-public class College_VD {
+public class Variables_Demo {
 	
 	public static void main(String[] args) {
 		Student lucky=new Student();

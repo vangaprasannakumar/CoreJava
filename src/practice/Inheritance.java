@@ -25,7 +25,7 @@ class Addition extends Square {
 }
 public class Inheritance {
 
-	public static void main(StringDemo[] args) {
+	public static void main(String[] args) {
 		Addition aa = new Addition();
 		aa.input();
 		aa.square();

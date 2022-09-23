@@ -2,7 +2,7 @@ package practice;
 // 2 Local Variables
 public class LocalVariable {
 
-	public static void main(StringDemo[] args) {
+	public static void main(String[] args) {
 		int l=20,
 			b=4,
 			P=2000,

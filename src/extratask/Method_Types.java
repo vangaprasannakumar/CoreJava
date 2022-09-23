@@ -15,7 +15,7 @@ class WifiAgent{
 	    return "Paid" ;
 	}
 }
-public class WifiCustomer_Method {
+public class Method_Types {
 	public static void main(String[] args) {
 		WifiAgent wifibill = new WifiAgent(); 
 		wifibill.form ( ) ;

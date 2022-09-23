@@ -15,7 +15,7 @@ class MistCollege1{
 }
 public class LocalInnerClass {
 
-	public static void main(StringDemo[] args) {
+	public static void main(String[] args) {
 		MistCollege1 mist = new MistCollege1();
 		mist.notification();
 	}

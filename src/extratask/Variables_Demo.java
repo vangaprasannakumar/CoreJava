@@ -6,7 +6,7 @@ class ChattingApps{
 	String about;
 	static String appName;
 }
-public class SocialMedia_VD {
+public class Variables_Demo {
 	
 	public static void main(String[] args) {
 		ChattingApps whatsapp=new ChattingApps();

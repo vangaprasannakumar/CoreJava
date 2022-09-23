@@ -5,7 +5,7 @@ class Student{
 	double marks;
 	static String college;
 }
-public class VariableDemo {
+public class Variable_Demo {
 
 	public static void main(String[] args) {
 		Student rahul=new Student();

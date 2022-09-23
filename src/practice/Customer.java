@@ -17,7 +17,7 @@ class Bank{
 }
 public class Customer {
 
-	public static void main(StringDemo[] args) {
+	public static void main(String[] args) {
 		Bank sbi = new Bank();
 		sbi.form ( ) ;
 		sbi.submitProof ("PAN: BLQPV6707A " , " Aadhar : 574561575079 " ) ;
