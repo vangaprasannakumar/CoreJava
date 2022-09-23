@@ -1,5 +1,5 @@
 package task;
-
+// 1 Theme On Types Of Methods
 class ExamBranch{
 	void form() {
 		System.out.println("Details- Name: V. Prasanna Kumar, PIN: 19C65A0124, Branch: Civil");
@@ -15,7 +15,7 @@ class ExamBranch{
 	    return "Paid" ;
 	}
 }
-public class ExanFee {
+public class ExanFee_Method {
 
 	public static void main(String[] args) {
 		ExamBranch SemExam = new ExamBranch();

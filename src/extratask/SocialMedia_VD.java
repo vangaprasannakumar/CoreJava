@@ -1,11 +1,12 @@
 package extratask;
+// 2.2 Variable Demo
 class ChattingApps{
 	String name;
 	long number;
 	String about;
 	static String appName;
 }
-public class SocialMedia {
+public class SocialMedia_VD {
 	
 	public static void main(String[] args) {
 		ChattingApps whatsapp=new ChattingApps();

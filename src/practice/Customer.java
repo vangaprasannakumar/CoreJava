@@ -1,5 +1,5 @@
 package practice;
-
+// 1 Types of Methods
 class Bank{
 	void form() {
 		System.out.println("Details- name: V. Prasanna Kumar, age:21");
@@ -17,7 +17,7 @@ class Bank{
 }
 public class Customer {
 
-	public static void main(String[] args) {
+	public static void main(StringDemo[] args) {
 		Bank sbi = new Bank();
 		sbi.form ( ) ;
 		sbi.submitProof ("PAN: BLQPV6707A " , " Aadhar : 574561575079 " ) ;

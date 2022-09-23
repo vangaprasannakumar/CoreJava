@@ -26,7 +26,7 @@ class Bmw extends Car {
 }
 public class MethodOverriding {
 
-	public static void main(String[] args) {
+	public static void main(StringDemo[] args) {
 		Car x=new Car();
 		x.cost();
 		x.milage();

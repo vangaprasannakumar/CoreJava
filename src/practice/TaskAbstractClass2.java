@@ -4,47 +4,45 @@ import java.util.Scanner;
 
 abstract class Numbers{
 	int num1; int num2;
-	Scanner input = new Scanner(System.in);
 	Numbers(int num1,int num2){
-		System.out.println("Enter 2 numbers");
+		
 	}
-	abstract void a();
+	abstract void note();
 	void print() {
 		System.out.println("-------");
 	}
 }
 class Add extends Numbers{
-	Add() {
-		super(0,0);
-		num1 = input.nextInt();
-		num2 = input.nextInt();
+	Add(int num1,int num2) {
+		super(num1,num2);
 		System.out.println("Addition = "+(num1+num2));
 	}
-	void a() {
-		System.out.println("11111");
+	void note() {
+		System.out.println("Addition");
 	}
 }
 class Multiplication extends Numbers{
-	Multiplication(){
-		super(20,1);
-		num1 = input.nextInt();
-		num2 = input.nextInt();
+	Multiplication(int num1,int num2){
+		super(num1,num2);
 		System.out.println("Multiplication = "+(num1*num2));
 	}
 	
-	void a() {
-		System.out.println("22222");
+	void note() {
+		System.out.println("Multiplication");
 	}
 }
 public class TaskAbstractClass2 {
 
-	public static void main(String[] args) {
+	public static void main(StringDemo[] args) {
+		Scanner input = new Scanner(System.in);
 		Numbers n;
-		n = new Add ();
-		n.a();
+		System.out.println("Enter 2 numbers");
+		n = new Add (input.nextInt(), input.nextInt());
+		n.note();
 		n.print();
-		n = new Multiplication ();
-		n.a();
+		System.out.println("Enter 2 numbers");
+		n = new Multiplication (input.nextInt(), input.nextInt());
+		n.note();
 		n.print();
 	}
 }

@@ -1,4 +1,5 @@
 package task;
+// // 2.2 Variable Demo
 class Student{
 	String name;
 	short id;
@@ -8,7 +9,7 @@ class Student{
 	static String college;
 	static int clgcode;
 }
-public class College {
+public class College_VD {
 	
 	public static void main(String[] args) {
 		Student lucky=new Student();

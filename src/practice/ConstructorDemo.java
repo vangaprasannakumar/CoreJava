@@ -14,7 +14,7 @@ class Employee1{
 	}
 }
 public class ConstructorDemo {
-	public static void main(String[] args) {
+	public static void main(StringDemo[] args) {
 		Employee1 shiva = new Employee1();
 		shiva.show();
 		

@@ -1,4 +1,5 @@
 package practice;
+// // 2.2 Variable Demo
 class Student{
 	int id;
 	double marks;

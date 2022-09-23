@@ -11,7 +11,7 @@ class Sum {
 }
 public class MethodOverloading {
 
-	public static void main(String[] args) {
+	public static void main(StringDemo[] args) {
 		Scanner sc = new Scanner(System.in) ;
 		Sum s = new Sum();
 		System.out.println("Enter two values");

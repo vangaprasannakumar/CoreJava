@@ -1,4 +1,4 @@
-package extratask;
+package own;
 
 public class Patient {
 	private String name;
@@ -44,7 +44,7 @@ public class Patient {
 	}
 	@Override
 	public String toString() {
-		return "Patient [name=" + name + ", age=" + age + ", disease=" + disease + ", amount=" + amount + "]";
+		return "Patient [name=" + name + ", age=" + age + ", disease=" + disease + ",  amount=" + amount + "]";
 	}
 
 }

@@ -17,7 +17,7 @@ class MistCollege2{
 }
 public class StaticInnerClass {
 
-	public static void main(String[] args) {
+	public static void main(StringDemo[] args) {
 		MistCollege2.notification();	
 		MistCollege2.CivilDepartment2.prepare();
 		MistCollege2.CivilDepartment2 civil = new MistCollege2.CivilDepartment2();

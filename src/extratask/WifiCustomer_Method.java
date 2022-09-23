@@ -1,5 +1,5 @@
 package extratask;
-
+// 1 Types Of Methods
 class WifiAgent{
 	void form() {
 		System.out.println("Details- Name: V. Prasanna Kumar, Number: 9963961371, Area: Penuballi");
@@ -15,7 +15,7 @@ class WifiAgent{
 	    return "Paid" ;
 	}
 }
-public class WifiCustomer {
+public class WifiCustomer_Method {
 	public static void main(String[] args) {
 		WifiAgent wifibill = new WifiAgent(); 
 		wifibill.form ( ) ;

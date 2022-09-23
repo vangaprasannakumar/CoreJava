@@ -1,7 +1,7 @@
 package practice;
 //Topic :- Zero argument Constructor in Abstract Class
-abstract class PeimarySchool{
-	PeimarySchool(){
+abstract class PrimarySchool{
+	PrimarySchool(){
 		System.out.println("Everyone Must Wear Uniform");
 	}
 	abstract void input();
@@ -9,20 +9,20 @@ abstract class PeimarySchool{
 		System.out.println("It's Mandatory");
 	}
 }
-class Boys extends PeimarySchool{
+class Boys extends PrimarySchool{
 	void input() {
 		System.out.println("All Boys Should Defnitaly Tuck your Shirt");
 	}
 }
-class Girls extends PeimarySchool{
+class Girls extends PrimarySchool{
 	void input() {
 		System.out.println("All Girls Should Defnitaly Wear two braids");
 	}
 }
 public class TaskAbstractClass {
 
-	public static void main(String[] args) {
-		PeimarySchool s;
+	public static void main(StringDemo[] args) {
+		PrimarySchool s;
 		s = new Boys();
 		s.input();
 		s.show();

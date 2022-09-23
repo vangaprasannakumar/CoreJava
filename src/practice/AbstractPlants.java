@@ -26,7 +26,7 @@ class VenusFlytrap extends Plants{
 }
 public class AbstractPlants {
 
-	public static void main(String[] args) {
+	public static void main(StringDemo[] args) {
 		Plants p;
 		p = new Rose();
 		p.grow();

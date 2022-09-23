@@ -22,7 +22,7 @@ class Employee{
 	}
 }
 public class ThisKeyword {
-	public static void main(String[] args) {
+	public static void main(StringDemo[] args) {
 		Employee shiva = new Employee(1023,45000);
 		
 		System.out.println("-------------");
