@@ -1,11 +1,12 @@
 package practice;
 interface Parentt{
 	int age=54;
-}
+
 interface Childd{
 	int age=22;
 }
-class Details implements Parentt, Childd{
+}
+class Details implements Parentt{
 	void details() {
 			System.out.println("parent age is "+Parentt.age);
 			System. out. println("Chi1d age is "+Childd.age);
