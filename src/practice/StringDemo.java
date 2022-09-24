@@ -2,7 +2,7 @@ package practice;
 public class StringDemo {
 	public static void main(String[] args) {
 		String s = "Kanna";
-		String k = s.concat(" Rabbit");
+		String k = s.concat(" Lucky");
 		System.out.println(s);
 		System.out.println(k);							// 1 Concat
 		System.out.println(s.equals("kanna"));			// 2 equals
