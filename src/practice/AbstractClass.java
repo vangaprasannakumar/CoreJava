@@ -19,7 +19,7 @@ class Girls extends PrimarySchool{
 		System.out.println("All Girls Should Defnitaly Wear two braids");
 	}
 }
-public class TaskAbstractClass {
+public class AbstractClass {
 
 	public static void main(String[] args) {
 		PrimarySchool s;

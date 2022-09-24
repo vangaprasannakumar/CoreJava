@@ -9,8 +9,7 @@ class Sum{
 		System.out.println ("sum of 2 numbers = "+(x+y));
 	}
 }
-
-public class MethodOverloading2 {
+public class MethodOverloading_Sum {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in) ;

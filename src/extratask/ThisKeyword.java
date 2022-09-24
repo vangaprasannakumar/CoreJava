@@ -20,7 +20,7 @@ class Bikes{
 	    System.out.println("company 	= "+company);
 	}
 }
-public class Bikes_ThisKeyword {
+public class ThisKeyword {
 
 	public static void main(String[] args) {
 		Bikes shiva = new Bikes("G 310 GS",305000);

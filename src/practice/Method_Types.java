@@ -1,5 +1,5 @@
 package practice;
-// 1 Types of Methods
+
 class Bank{
 	void form() {
 		System.out.println("Details- name: V. Prasanna Kumar, age:21");
@@ -15,7 +15,7 @@ class Bank{
 	    return "Deposited" ;
 	}
 }
-public class Customer {
+public class Method_Types {
 
 	public static void main(String[] args) {
 		Bank sbi = new Bank();

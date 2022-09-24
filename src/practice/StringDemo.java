@@ -24,8 +24,8 @@ public class StringDemo {
 		System.out.println(t.trim());					// 8 trim
 		
 		System.out.println("-------------");
-		String x = "Wlecome to java string concept";
-		String[] y = x.split(" ");						// 9 split
+		String x = "Wlecome to java, string concept";
+		String[] y = x.split(", ");						// 9 split
 		for(String z : y) {
 			System.out.println(z);
 		}

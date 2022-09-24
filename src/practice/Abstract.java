@@ -24,7 +24,7 @@ class VenusFlytrap extends Plants{
 		System.out.println("Venus Flytrap eat Animals");
 	}
 }
-public class AbstractPlants {
+public class Abstract {
 
 	public static void main(String[] args) {
 		Plants p;

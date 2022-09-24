@@ -5,7 +5,6 @@ import java.util.Scanner;
 abstract class Numbers{
 	int num1; int num2;
 	Numbers(int num1,int num2){
-		
 	}
 	abstract void note();
 	void print() {
@@ -31,7 +30,7 @@ class Multiplication extends Numbers{
 		System.out.println("Multiplication");
 	}
 }
-public class TaskAbstractClass2 {
+public class AbstractClass_Parameterized {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

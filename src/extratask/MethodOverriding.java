@@ -23,7 +23,7 @@ class FootBall extends Sports{
 		System.out.println("FootBall match is 90 minutes");
 	}
 }
-public class MethodOverriding2 {
+public class MethodOverriding {
 
 	public static void main(String[] args) {
 		Sports s = new Sports();

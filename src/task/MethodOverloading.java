@@ -9,7 +9,7 @@ class Addition{
 		System.out.println ("Integer sum = "+(x+y));
 	}
 }
-public class MethodOverloading3 {
+public class MethodOverloading {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in) ;
