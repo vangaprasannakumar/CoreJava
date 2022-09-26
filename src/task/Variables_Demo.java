@@ -1,5 +1,5 @@
 package task;
-// // 2.2 Variable Demo
+
 class Student{
 	String name;
 	short id;

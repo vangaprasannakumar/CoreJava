@@ -1,5 +1,5 @@
 package task;
-// Topic :- Theme on Abstract Methods
+
 import java.util.Scanner;
 abstract class Area{
 	double length, breadth;
