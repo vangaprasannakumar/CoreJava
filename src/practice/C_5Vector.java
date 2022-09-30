@@ -1,9 +1,9 @@
-package task;
+package practice;
 
 import java.util.Random;
 import java.util.Vector;
 
-public class C_Vector {
+public class C_5Vector {
 
 	public static void main(String[] args) {
 		//Vector<Integer>d = new Vector<Integer>();

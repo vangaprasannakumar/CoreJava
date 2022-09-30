@@ -1,17 +1,17 @@
-package task;
+package practice;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.Random;
 
-public class C_ListIterator {
+public class C_9ListIterator {
 
 	public static void main(String[] args) {
 		List<Integer> al = new ArrayList<Integer>();
 		Random num = new Random();
 		for(int i=0;i<=10;i++) {
-			al.add(num.nextInt(100));
+			al.add(num.nextInt(100));     
 		}
 		System.out.println(al+"\n");
 		ListIterator i = al.listIterator();

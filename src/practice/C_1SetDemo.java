@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 import java.util.TreeSet;
 import java.util.Set;
 
-public class C_SetDemo {
+public class C_1SetDemo {
 	public static void main(String[] args) {
 		
 		System.out.println("HashSet :-");

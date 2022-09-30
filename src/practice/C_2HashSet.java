@@ -1,9 +1,9 @@
-package task;
+package practice;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class C_HashSet {
+public class C_2HashSet {
 
 	public static void main(String[] args) {
 		Set<Integer> sum = new HashSet<Integer>();

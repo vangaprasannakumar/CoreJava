@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.LinkedList;
 import java.util.List;
 
-public class C_diffALandLL {
+public class C_6diffALandLL {
 
 	public static void main(String[] args) {
 		

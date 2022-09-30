@@ -1,11 +1,11 @@
-package task;
+package practice;
 
 import java.util.Iterator;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
 
-public class C_TMIterator {
+public class C_8TMIterator {
 
 	public static void main(String[] args) {
 		TreeMap<Double, Character> tm = new TreeMap<Double, Character>();

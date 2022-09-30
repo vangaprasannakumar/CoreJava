@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class C_ListDemo {
+public class C_4ListDemo {
 	public static void main(String[] args) {
 		List<Integer> al = new ArrayList<Integer>();
 		al.add(24);

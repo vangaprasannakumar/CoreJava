@@ -1,9 +1,9 @@
-package task;
+package practice;
 
 import java.util.Random;
 import java.util.TreeSet;
 
-public class C_TreeSet {
+public class C_3TreeSet {
 
 	public static void main(String[] args) {
 		
