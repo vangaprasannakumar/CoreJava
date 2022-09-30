@@ -8,7 +8,7 @@ import java.util.TreeMap;
 public class C_8TMIterator {
 
 	public static void main(String[] args) {
-		TreeMap<Double, Character> tm = new TreeMap<Double, Character>();
+		TreeMap<Double, Character> tm = new TreeMap<>();
 		tm.put(9.6, 'A');
 		tm.put(5.2, 'F');
 		tm.put(8.4, 'B');
