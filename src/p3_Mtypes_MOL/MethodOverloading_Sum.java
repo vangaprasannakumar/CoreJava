@@ -1,4 +1,4 @@
-package p2_Mtypes_MOL;
+package p3_Mtypes_MOL;
 import java.util.Scanner;
 
 class Sum{
