@@ -30,7 +30,7 @@ class SportsFactory{
 public class MethodOverriding_E {
 
 	public static void main(String[] args) {
-		SportsFactory sf = new SportsFactory();
+		SportsFactory sf = new SportsFactory();			//Factory Method
 		Sports b = sf.gerSports("BasketBall");
 		b.players();
 		b.duration();
@@ -41,7 +41,7 @@ public class MethodOverriding_E {
 	}
 }
 		/*
-		Sports s = new Sports();
+		Sports s = new Sports();				// Upcasting
 		s.players();
 		s.duration();
 		System.out.println("----------");

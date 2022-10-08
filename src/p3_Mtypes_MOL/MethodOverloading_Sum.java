@@ -12,11 +12,13 @@ class Sum{
 public class MethodOverloading_Sum {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in) ;
+		Scanner sc = new Scanner(System.in);
 		Sum s = new Sum();
-		System.out.println("Enter two values");
 		
+		System.out.println("Enter two values");
 		s.add(sc.nextInt(), sc.nextFloat());
+		
+		System.out.println("Enter two values");
 		s.add(sc.nextFloat(), sc.nextInt());
 	}
 }

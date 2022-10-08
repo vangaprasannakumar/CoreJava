@@ -15,8 +15,9 @@ public class MethodOverloading {
 		Scanner sc = new Scanner(System.in) ;
 		Addition s = new Addition();
 		System.out.println("Enter the values");
-		
 		s.add(sc.nextInt(), sc.nextInt());
+
+		System.out.println("Enter the values");
 		s.add(sc.nextInt(), sc.nextInt(), sc.nextInt());
 	}
 }
