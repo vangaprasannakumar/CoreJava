@@ -1,6 +1,5 @@
 package p10_Exception;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Exception_3SIOB {

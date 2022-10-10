@@ -1,4 +1,4 @@
-package p13_com.java8_stream_map_optional;
+package p13_java8_stream_map_optional;
 
 import java.util.Arrays;
 import java.util.List;

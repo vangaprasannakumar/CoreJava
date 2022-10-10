@@ -1,8 +1,7 @@
-package p13_com.java8_stream_map_optional;
+package p13_java8_stream_map_optional;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 import java.util.stream.Collectors;
 class Students1{
 	private String name;
@@ -37,14 +36,14 @@ class Students1{
 public class MapmethodDemo {
 
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+		
 		ArrayList<Students1> al = new ArrayList<Students1>();
 		al.add(new Students1("Kanna	", 124, 986));
-		al.add(new Students1("Sri	", 308, 980));
-		al.add(new Students1("Kavya	", 309, 960));
-		al.add(new Students1("Usha	", 314, 950));
-		al.add(new Students1("Rasheed	", 311, 905));
-		al.add(new Students1("Harsha	", 320, 894));
+		al.add(new Students1("Sri	", 109, 980));
+		al.add(new Students1("Kavya	", 101, 960));
+		al.add(new Students1("Usha	", 104, 950));
+		al.add(new Students1("Harsha	", 106, 894));
+		al.add(new Students1("Rasheed	", 120, 905));
 		
 		
 		al.forEach(x->System.out.println("Name:	"+x.getName()+"\n"+"PIN:	"+x.getPin()+"\n"+"Marks:	"+x.getMarks()+"\n"));
